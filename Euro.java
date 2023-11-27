@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Euro extends Moeda {
 	
-	// construtor para atribuir valor ao objeto
+	// construtor para atribuir valor ao objeto.
 	public Euro(double val) {
 		super(val);
 	}
@@ -31,6 +31,7 @@ public class Euro extends Moeda {
 		result = prime * result + Objects.hash(total);
 		return result;
 	}
+
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

@@ -25,6 +25,7 @@ public class Main{
 			case 2:
 				removerMoeda(lista);
 			break;
+			// demais operações futuras
 			default:
 				System.out.println("Operação inexistente");
 		}

@@ -30,7 +30,7 @@ public abstract class Moeda {
 		return Objects.hash(valor);
 	}
 
-
+	// possíveis testes
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

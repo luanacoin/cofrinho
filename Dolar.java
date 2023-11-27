@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Dolar extends Moeda {
 	
-	// construtor para atribuir valor ao objeto
+	// construtor para atribuir valor ao objeto.
 	public Dolar(double val) {
 		super(val);
 	}

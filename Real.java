@@ -17,6 +17,8 @@ public class Real extends Moeda {
 		
 	double total = 0.0;
 	@Override
+
+	// implementar conversão, até agora funciona como o getValor
 	public double converter() {
 		total = getValor();
 		return total;
