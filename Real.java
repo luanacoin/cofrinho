@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Real extends Moeda {
 	
-	//Atributo
+	// construtor para atribuir valor ao objeto
 	public Real(double val) {
 		super(val);
 	}

@@ -3,7 +3,8 @@ package classes;
 import java.util.Objects;
 
 public class Euro extends Moeda {
-	//Atributo
+	
+	// construtor para atribuir valor ao objeto
 	public Euro(double val) {
 		super(val);
 	}
@@ -21,6 +22,8 @@ public class Euro extends Moeda {
 		total = getValor() ;
 		return total;
 	}
+
+
 	@Override
 	public int hashCode() {
 		final int prime = 0;

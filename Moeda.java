@@ -6,12 +6,11 @@ public abstract class Moeda {
 	//Atributos
 	protected double valor;
 	
-	
+	//Construtores
 	public Moeda(double val) {
 		valor = val;
 	}
 
-	//Construtores
 	public double getValor() {
 		return valor;
 	}
@@ -22,7 +21,8 @@ public abstract class Moeda {
 	
 
 	//Métodos
-	protected abstract void info();
+
+	protected abstract void info(); // expõe informação de quanto dinheiro há em cada cofre
 
 
 	@Override
@@ -44,8 +44,4 @@ public abstract class Moeda {
 	}
 
 	protected abstract double converter();
-
-
-
-
 }
